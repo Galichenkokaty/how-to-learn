@@ -149,6 +149,8 @@
 
 .table__cell {
     width: 250px;
+    list-style: none;
+    padding: 0;
 }
 
 .table__heading {
