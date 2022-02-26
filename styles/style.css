@@ -186,6 +186,11 @@
     font-size: 18px;
     font-weight: normal;
     margin-top: 0;
+    margin-bottom: 0;
+}
+
+.table__text_paragraph {
+    margin-top: 20px;
 }
 
 .feynman {
@@ -197,6 +202,7 @@
     position: relative;
     margin: 0;
     background-color: #f2f2f2;
+    padding-top: 100px;
 }
 
 .feynman__title {
@@ -295,18 +301,22 @@
     display: flex;
 }
 
+.footer__column {
+    display: flex;
+}
+
 .footer__columns {
     width: 90%;
     margin: 60px auto 40px auto;
     display: flex;
     list-style: none;
     color: white;
+    justify-content: space-between;
 }
 
 .footer__column_content_copyright {
     display: flex;
     flex-basis: 711px;
-    /*Не могу понять почему это не работает*/
     flex-direction: column;
     align-content: space-between;
     margin: 0;
@@ -328,10 +338,10 @@
 }
 
 .footer__column_content_info {
+    display: flex;
     flex-direction: column;
     margin: 0;
     list-style: none;
-    flex-wrap: wrap;
 }
 
 .footer__column-heading {
@@ -357,8 +367,8 @@
 }
 
 .footer__column_content_social {
+    display: flex;
     margin: 0;
-    flex-wrap: wrap;
     flex-direction: column;
     list-style: none;
     line-height: 10px;
