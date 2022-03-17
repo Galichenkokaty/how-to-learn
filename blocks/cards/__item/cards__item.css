@@ -1,7 +1,5 @@
 .cards__item {
     display: flex;
-    align-content: space-between;
-    justify-content: space-between;
     flex-wrap: wrap;
     width: 240px;
     text-align: center;
